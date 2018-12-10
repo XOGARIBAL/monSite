@@ -1,6 +1,7 @@
 body
 {
-  paddin-top:15px;
+  height: 100%;
+  width: 100%;
 }
 
 p
@@ -17,9 +18,14 @@ p
   border-radius: 6px;
 }*/
 
-[class*=nav-tabs]
+.nav-tabs
 {
   background-color: #E6E6E6;
   border: 1px #A4A4A4;
   border-style: hidden solid hidden solid;
+}
+
+.header
+{
+    background-color: white;
 }
